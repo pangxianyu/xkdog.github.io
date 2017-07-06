@@ -30,7 +30,7 @@ published: true
           <img src="{{ post.image }}">
         </a>
       </div>
-      {% endif %}
+      {% endif %}11
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
